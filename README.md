@@ -139,6 +139,7 @@ Property area
 Number of bathrooms
 Daily rental price
 Clicking a villa card navigates the user to its individual details page.
+```
 
 🏘️ All Villas
 The All Villas page displays the complete collection of properties.
@@ -645,7 +646,7 @@ Files inside the public directory are available from the website root.
 ⚙️ Installation
 Clone the repository:
 
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/PrakharBarsainya/Luxury-Rentals.git
 
 Move into the project directory:
 
@@ -893,12 +894,12 @@ Payment System            ⏳ Future Improvement
 🌍 Live Demo
 Add the deployed website URL here after deployment:
 
-https://your-deployed-link.com
+https://luxury-real-estate-cyan.vercel.app/?
 
 💻 GitHub Repository
 Add the GitHub repository URL here:
 
-https://github.com/your-username/your-repository
+https://github.com/PrakharBarsainya/Luxury-Rentals
 
 👨‍💻 Author
 Prakhar Barsainya
