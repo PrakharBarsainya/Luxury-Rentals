@@ -141,7 +141,7 @@ Daily rental price
 Clicking a villa card navigates the user to its individual details page.
 ```
 
-🏘️ All Villas
+## 🏘️ All Villas
 The All Villas page displays the complete collection of properties.
 
 The page dynamically loops through the villas array and creates a card for
@@ -162,7 +162,7 @@ For example:
 /villa/2
 /villa/3
 
-📄 Individual Villa Details
+## 📄 Individual Villa Details
 Each property has its own dynamic details page.
 
 The route is:
@@ -200,13 +200,13 @@ Google Maps location
 This approach allows one reusable component to display multiple properties
 instead of creating a separate component for every villa.
 
-🌄 Our Regions
+## 🌄 Our Regions
 The Our Regions section presents different types of destinations.
 
 Currently, the project includes:
 
-🌄 Mountains
-🌊 Coastline
+## 🌄 Mountains
+## 🌊 Coastline
 Each region contains:
 
 Region image
@@ -248,7 +248,7 @@ Currently, this section is a frontend presentation only.
 It can later be connected to a host registration system, property
 submission system, or host dashboard.
 
-📖 About Us
+## 📖 About Us
 The project contains an About section on the homepage and a dedicated
 About Us page.
 
@@ -268,7 +268,7 @@ the smaller About component.
 This helps reduce unnecessary duplication and keeps the application
 structure organized.
 
-📞 Contact
+## 📞 Contact
 The Contact page provides visitors with information for connecting with the
 platform.
 
@@ -285,7 +285,7 @@ At the moment, it does not send information to a backend server or database.
 It can later be connected to an API or external service for storing contact
 messages and sending notifications.
 
-📜 Terms & Conditions
+## 📜 Terms & Conditions
 The application contains a dedicated Terms & Conditions page.
 
 The page covers topics such as:
@@ -299,7 +299,7 @@ Governing Law
 Contact Information
 The page can be accessed through the website footer.
 
-🧭 Navigation
+## 🧭 Navigation
 The application uses a reusable Navbar component.
 
 The navigation contains links to:
@@ -314,7 +314,7 @@ A hamburger menu is also available for smaller screen sizes.
 
 The hamburger menu state is managed using React's useState() hook.
 
-🦶 Footer
+## 🦶 Footer
 The reusable Footer component is displayed throughout the application.
 
 It contains:
@@ -332,7 +332,7 @@ user is currently on the homepage.
 
 Based on the current route, different CSS classes are applied to the footer.
 
-🧩 Component Architecture
+## 🧩 Component Architecture
 The application follows a component-based React architecture.
 
 Page-level components are organized inside:
@@ -367,7 +367,7 @@ TopVillas
 This separation makes the project easier to understand, maintain, and
 extend.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Frontend
 React.js - Used to build the user interface with reusable components.
 Vite - Used as the development server and production build tool.
@@ -375,7 +375,7 @@ JavaScript ES6+ - Used for application logic and data handling.
 CSS - Used for styling, layouts, responsiveness, and visual design.
 React Router DOM - Used for client-side navigation and dynamic routes.
 React Icons - Used for icons throughout the website.
-📦 Dependencies
+## 📦 Dependencies
 The main dependencies used in the project are:
 
 react
@@ -394,7 +394,7 @@ eslint-plugin-react-hooks
 eslint-plugin-react-refresh
 vite
 
-📂 Project Structure
+## 📂 Project Structure
 project/
 │
 ├── public/
@@ -456,7 +456,7 @@ project/
 ├── README.md
 └── vite.config.js
 
-📁 Important Files
+## 📁 Important Files
 src/main.jsx
 main.jsx is the entry point of the React application.
 
@@ -520,7 +520,7 @@ Example:
 
 The application imports this array wherever villa information is required.
 
-🔄 Application Flow
+## 🔄 Application Flow
 The basic application flow is:
 
 User
@@ -553,7 +553,7 @@ For example:
 /villa/1             → SingleVilla
 /termsandconditions  → TermsAndConditions
 
-🏘️ Villa Data Flow
+## 🏘️ Villa Data Flow
 The villa data follows a centralized flow:
 
 villas.js
@@ -579,7 +579,7 @@ components.
 
 Adding a new property only requires adding another object to villas.js.
 
-🔗 Dynamic Routing
+## 🔗 Dynamic Routing
 The application uses React Router's:
 
 useParams()
@@ -605,7 +605,7 @@ the villa array.
 
 The matching villa is then rendered on the page.
 
-🎨 Styling
+## 🎨 Styling
 The application uses CSS for its overall visual design.
 
 The main stylesheet is:
@@ -630,7 +630,7 @@ Responsive layouts
 Mobile navigation
 Villa details
 Spacing and alignment
-🖼️ Static Assets
+## 🖼️ Static Assets
 Website images are stored inside:
 
 public/
@@ -643,7 +643,7 @@ For example:
 
 Files inside the public directory are available from the website root.
 
-⚙️ Installation
+## ⚙️ Installation
 Clone the repository:
 
 git clone https://github.com/PrakharBarsainya/Luxury-Rentals.git
@@ -656,7 +656,7 @@ Install all project dependencies:
 
 npm install
 
-💻 Run Locally
+## 💻 Run Locally
 Start the Vite development server:
 
 npm run dev
@@ -667,7 +667,7 @@ http://localhost:5173
 
 Open the provided URL in a browser to view the website.
 
-🏗️ Production Build
+## 🏗️ Production Build
 To create an optimized production build, run:
 
 npm run build
@@ -679,7 +679,7 @@ dist/
 The generated dist folder contains the optimized files required for
 deployment.
 
-🔍 Preview Production Build
+## 🔍 Preview Production Build
 After creating the production build, run:
 
 npm run preview
@@ -687,7 +687,7 @@ npm run preview
 This allows the production version of the website to be tested locally
 before deployment.
 
-📜 Available Scripts
+## 📜 Available Scripts
 Development
 npm run dev
 
@@ -708,7 +708,7 @@ npm run lint
 
 Runs ESLint to check the source code.
 
-🚀 Deployment
+## 🚀 Deployment
 The project is a Vite-based React frontend and can be deployed using
 frontend hosting platforms such as:
 
@@ -727,7 +727,7 @@ dist
 
 The hosting provider should serve the contents of this directory.
 
-🌐 Render Deployment
+## 🌐 Render Deployment
 For a Render Static Site, the basic configuration can be:
 
 Build Command:
@@ -741,7 +741,7 @@ After deployment, Render provides a public URL for the application.
 The final live URL can be added to the Live Demo section of this
 README.
 
-🔐 Environment Variables
+## 🔐 Environment Variables
 The current version of the project does not require environment variables
 because the application uses static villa data.
 
@@ -755,7 +755,7 @@ Example:
 
 VITE_API_URL=https://example.com/api
 
-🛡️ Git & .gitignore
+## 🛡️ Git & .gitignore
 Generated dependencies and build files should not normally be committed to
 the repository.
 
@@ -769,7 +769,7 @@ dist/
 This keeps the repository clean and prevents unnecessary files from being
 uploaded to GitHub.
 
-🧪 Testing Checklist
+## 🧪 Testing Checklist
 Before deploying the application, verify the following:
 
 Homepage loads correctly
@@ -794,7 +794,7 @@ The production version can be tested with:
 npm run build
 npm run preview
 
-⚠️ Current Limitations
+## ⚠️ Current Limitations
 This project is currently a frontend-focused property rental interface.
 
 The following features are not connected to a real backend:
@@ -816,7 +816,7 @@ The current property information is stored statically in:
 
 src/villas.js
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 The project can be expanded into a complete property rental platform.
 
 Possible improvements include:
@@ -873,7 +873,7 @@ POST /api/bookings
 This would allow the project to evolve into a complete property rental
 application.
 
-📊 Current Project Status
+## 📊 Current Project Status
 Frontend                  ✅ Completed
 React Components          ✅ Completed
 React Router              ✅ Integrated
@@ -891,17 +891,17 @@ Authentication            ⏳ Future Improvement
 Booking System            ⏳ Future Improvement
 Payment System            ⏳ Future Improvement
 
-🌍 Live Demo
+## 🌍 Live Demo
 Add the deployed website URL here after deployment:
 
 https://luxury-real-estate-cyan.vercel.app/?
 
-💻 GitHub Repository
+## 💻 GitHub Repository
 Add the GitHub repository URL here:
 
 https://github.com/PrakharBarsainya/Luxury-Rentals
 
-👨‍💻 Author
+## 👨‍💻 Author
 Prakhar Barsainya
 
 Built with:
@@ -913,7 +913,7 @@ React Icons
 JavaScript
 CSS
 
-📌 Project Summary
+## 📌 Project Summary
 Luxury Rentals is a responsive React-based luxury villa rental interface
 that demonstrates practical frontend development concepts.
 
